@@ -3,3 +3,36 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.contents{
+  background-color: #eff3f4;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.content-box{
+  margin: 20px 0 20px 20px;
+  float: left;
+  box-sizing: content-box;
+  border:solid 20px #3274ae;
+  
+  
+}
+
+.text{
+  padding: 20px;
+  width: 230px;
+  box-sizing: border-box;
+  border: solid 10px #022336;
+  font-size:16px;
+  line-height: 16px;
+  background-color: #eaf4ff;
+}

@@ -3,3 +3,31 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+
+.balloon{
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: solid 5px  #222;
+  border-radius:  30px;
+  position: relative;
+}
+
+.balloon::before {
+  content: "";
+  border: solid 30px transparent;
+  border-top: 30px solid #222;
+  position: absolute;
+  left: 20px;
+  bottom: -60px;
+}
+
+.balloon::after {
+  content: "";
+  border: solid 30px transparent;
+  border-top: 30px solid #fff;
+  position: absolute;
+  left: 20px;
+  bottom: -53px;
+}

@@ -3,3 +3,27 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+.contents{
+  margin: 0 auto;
+  background-color: #eff3f4;
+  width: 900px;
+  padding: 20px;
+}
+
+
+
+.sea-photo{
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+.contents__box{
+  font-size:18px;
+  line-height: 22px;
+}
+
+.fes-photo{
+  float: right;
+  margin: 0 0 10px 20px;
+}
