@@ -5,7 +5,7 @@
 /* 回答はここに書いてね */
 
 
-.contents{
+.contents {
   width: 500px;
   height: 500px;
   background-color: #ECF1F2;
@@ -13,7 +13,7 @@
   position: relative;
 }
 
-.square{
+.square {
   width: 100px;
   height: 100px;
   text-align: center;
@@ -23,61 +23,65 @@
   position: absolute;
 }
 
-.square:last-child{
+/* .square:last-child{
+  position: fixed;
+} */
+
+.nine {
   position: fixed;
 }
 
-.one{
+.one {
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
 }
 
 
-.two{
+.two {
   background-color: #7084de;
   top: 120px;
   left: 280px;
 }
 
 
-.three{
+.three {
   background-color: #d0ecea;
-  top:200px;
+  top: 200px;
   left: 360px;
 }
 
 .four {
   background-color: #8b7a5e;
-  top:280px;
+  top: 280px;
   left: 280px;
   z-index: 1;
 }
 
 .five {
   background-color: #9fd6d2;
-  top:360px;
+  top: 360px;
   left: 200px;
   z-index: 2;
 }
 
 .six {
   background-color: #fffee4;
-  top:280px;
+  top: 280px;
   left: 120px;
   z-index: 2;
 }
 
 .seven {
   background-color: #deae70;
-  top:200px;
+  top: 200px;
   left: 40px;
   z-index: 3;
 }
 
 .eight {
   background-color: #de70cf;
-  top:120px;
+  top: 120px;
   left: 120px;
   z-index: 4;
   position: relative;
@@ -89,14 +93,15 @@
   left: 10px;
 }
 
-.eight::after{
+.eight::after {
   content: "";
   width: 20px;
   height: 20px;
   background-color: #ffefd3;
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
-
-
 }
+
+/* fixedをnineにかけてつける */
+/* スペース */

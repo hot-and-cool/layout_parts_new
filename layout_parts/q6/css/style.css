@@ -5,11 +5,11 @@
 /* 回答はここに書いてね */
 
 
-.text-align{
+.text-align {
   text-align: center;
 }
 
-.text_1{
+/* .text_1{
   display: inline-block;
   background-color: #e6f2ff;
   width: 90px;
@@ -22,41 +22,54 @@
   margin: 0 auto;
   text-align: center;
   padding: 10px 0;
+} */
+
+.common-text {
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
 }
 
-.contents_3{
+.is-inline-block {
+  display: inline-block;
+}
+
+.is-margin {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.around {
   display: table;
 }
-.table{
+
+.table {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.text_3{
-  display: inline-block;
+.table_text {
   background-color: #fff;
   padding: 10px;
-  
 }
 
-.contents_4{
+.is-flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.text_4{
+.flex_text {
   background-color: #fff;
   padding: 10px;
 }
 
-.contents_5{
+.is-relative {
   position: relative;
 }
 
-
-.text_5{
+.position_text {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -65,9 +78,11 @@
   margin: auto;  
 }
 
-.text_6{
+.change-position_text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* クラス名を連番から変更 */

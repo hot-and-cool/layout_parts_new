@@ -4,26 +4,29 @@
 
 /* 回答はここに書いてね */
 
-.contents{
+.contents {
   margin: 0 auto;
   background-color: #eff3f4;
   width: 900px;
   padding: 20px;
 }
 
-
-
-.sea-photo{
+.left-photo {
   float: left;
   margin: 0 20px 10px 0;
 }
 
-.contents__box{
+.contents__box {
   font-size:18px;
   line-height: 22px;
 }
 
-.fes-photo{
+/* 追加 */
+.contents__box__text {
+  word-break: break-all;
+}
+
+.right-photo {
   float: right;
   margin: 0 0 10px 20px;
 }

@@ -5,7 +5,7 @@
 /* 回答はここに書いてね */
 
 
-.balloon{
+.balloon {
   width: 500px;
   padding: 20px;
   margin: 0 auto;
@@ -14,20 +14,24 @@
   position: relative;
 }
 
-.balloon::before {
+
+/* /クラスをカンマでまとめられる。top等の部分は個別のほうがよい */
+/* 追加 */
+.balloon::before,::after {
   content: "";
   border: solid 30px transparent;
-  border-top: 30px solid #222;
   position: absolute;
+} 
+
+
+.balloon::before {
+  border-top: 30px solid #222;
   left: 20px;
   bottom: -60px;
 }
 
 .balloon::after {
-  content: "";
-  border: solid 30px transparent;
   border-top: 30px solid #fff;
-  position: absolute;
   left: 20px;
   bottom: -53px;
 }

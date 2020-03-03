@@ -7,7 +7,7 @@
 
 
 
-.main{
+.main {
   width: 500px;
   height: 336px;
   margin: 0 auto;
@@ -28,7 +28,6 @@
   bottom: -100%;
   transition: all 0.5s;
   box-sizing: border-box;
-  
 }
 
 .text {
@@ -50,31 +49,28 @@
   transform: scale(1.5);
 }
 
-
-.contents_2 {
+.contents {
   width: 100px;
   height: 100px;
   margin: 0 auto;
 }
 
 .circle {
-  
   width: 100%;
   height: 100%;
   border: 10px solid #ecf1f2;
   border-top-color: #00bcd4;
   border-radius: 50%;
   animation: spin 1.1s linear infinite;
-  
 }
 
-@keyframes spin{
-  0%{
+@keyframes spin {
+  0% {
     transform: rotate(0deg);
   }
 
   
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }

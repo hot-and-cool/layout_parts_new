@@ -5,36 +5,37 @@
 /* 回答はここに書いてね */
 
 
-.contents{
+.contents {
   table-layout: fixed;
   width: 100%;
   margin: 0 auto;
-  
-  border:solid #dedede 1px;
+  border: solid #dedede 1px;
 }
 
-.header{
+/* クラス名修正 .header → .contents t*/
+.contents th {
   background-color: #2244aa;
-  font-size:18px;
-  color:#fff;
+  font-size: 18px;
+  color: #fff;
   line-height: 26px;
 }
 
-
-.header,.row,.data{
-  border:solid #dedede 1px;
+.contents th,.contents tr,.contents td {
+  border: solid #dedede 1px;
   padding: 10px;
   
 }
-.data{
-  color:#000;
+.contents td {
+  color: #000;
   text-align: center;
   line-height: 22px;
 }
 
-.row:nth-child(2n+1){
+/* 親要素からみて偶数番目の要素 */
+.contents tbody tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
-.row:last-child{
+
+.contents tfoot tr:last-child {
   border-top: dashed #000 2px;
 }
